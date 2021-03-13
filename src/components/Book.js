@@ -13,7 +13,7 @@ const Book = ({ book, onDelete, onEdit }) => {
           onClick={() => onDelete(book.id)}
         />
       </div>
-      <h2>{book.title} </h2>
+      <h2>{book.title}, {book.publish_year}</h2>
       {book.authors.map((author) => (
         <span>
           {`${author.name} ${author.surname}`}
