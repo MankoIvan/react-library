@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 const ISBN = require("isbn-validate");
 
 const AddBook = (props) => {
-  const { onAdd, onClose, popupTitle, books } = props
+  const { onAdd, onClose, popupTitle, books } = props;
 
   let book = {
     id: Date.now(),
@@ -15,30 +15,23 @@ const AddBook = (props) => {
     publish_year: "",
     release_date: "",
     image: "",
-    isbn: ""
-  }
-  if(props.match.params.id) {
-    book = books.filter((item) => item.id == props.match.params.id)[0];    
+    isbn: "",
+  };
+  if (props.match.params.id) {
+    book = books.filter((item) => item.id == props.match.params.id)[0];
   }
 
   const [id, setId] = useState(book.id);
   const [title, setTitle] = useState(book.title);
-  const [author_name, setAuthorName] = useState(book.authors.map((author) => `${author.name} ${author.surname}`).join('; '));
+  const [author_name, setAuthorName] = useState(
+    book.authors.map((author) => `${author.name} ${author.surname}`).join("; ")
+  );
   const [pages, setPages] = useState(book.pages);
   const [publisher, setPublisher] = useState(book.publisher);
   const [publish_year, setPublishYear] = useState(book.publish_year);
   const [release_date, setReleaseDate] = useState(book.release_date);
   const [image, setImage] = useState(book.image);
-  const [isbn, setISBN] = useState(book.isbn); 
-  
-/*     setTitle(book.title);
-    setAuthorName("");
-    setPages(book.pages);
-    setPublisher(book.publisher);
-    setPublishYear(book.publish_year);
-    setReleaseDate(book.release_date);
-    setImage(book.image);
-    setISBN(book.isbn); */
+  const [isbn, setISBN] = useState(book.isbn);
 
   const reader = new FileReader();
   reader.addEventListener(
@@ -96,7 +89,6 @@ const AddBook = (props) => {
     setImage("");
     setISBN("");
   };
-
 
   return (
     <div className="add-book-popup">

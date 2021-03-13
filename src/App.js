@@ -147,7 +147,9 @@ function App() {
                     title={showAddBook ? "Adding" : "Add"}
                   />
                   <div>
-                    <span style={{marginRight: '20px', fontSize: '20px'}}>Sort:</span>
+                    <span style={{ marginRight: "20px", fontSize: "20px" }}>
+                      Sort:
+                    </span>
                     <Button
                       onClick={rednerSortByTitle}
                       title={"Title"}

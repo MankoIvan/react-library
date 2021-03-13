@@ -2,7 +2,6 @@ import { withRouter, Link } from "react-router-dom";
 import Button from "./Button";
 
 const BookPage = (props) => {
-
   const book = props.books.filter(item => item.id == props.match.params.id)[0];
   return (
     <div className="bookpage-container">
