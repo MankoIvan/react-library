@@ -82,7 +82,7 @@ const AddBook = (props) => {
       publisher,
       publish_year,
       release_date,
-      image,
+      image: image ? image : "../img/default_book_cover.jpg",
       isbn,
     });
 

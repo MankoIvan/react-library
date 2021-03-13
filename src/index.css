@@ -18,8 +18,10 @@ code {
 }
 
 .book-image {
-  max-height: 300px;
+  height: 300px;
+  width: auto;
   margin: auto;
+  background-size: contain;
 }
 .book-delete-button {
   position: absolute;
