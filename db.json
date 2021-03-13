@@ -1,0 +1,120 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Автостопом по галактике",
+      "authors": [
+        {
+          "name": "Дуглас",
+          "surname": "Адамс"
+        }
+      ],
+      "pages": 317,
+      "publisher": "АСТ",
+      "publish_year": 1980,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/00/00/00/20/gc/large_0644b79410bde0ef.jpg",
+      "isbn": "123456"
+    },
+    {
+      "id": 2,
+      "title": "Бойня №5",
+      "authors": [
+        {
+          "name": "Курт",
+          "surname": "Воннегут"
+        }
+      ],
+      "pages": 221,
+      "publisher": "АСТ",
+      "publish_year": 1969,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/01/00/00/1p/af/large_2f979c2feb03a158.jpg",
+      "isbn": ""
+    },
+    {
+      "id": 3,
+      "title": "Двенадцать стульев",
+      "authors": [
+        {
+          "name": "Илья",
+          "surname": "Ильф"
+        },
+        {
+          "name": "Евгений",
+          "surname": "Петров"
+        }
+      ],
+      "pages": 384,
+      "publisher": "Азбука",
+      "publish_year": 1927,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/00/00/00/1p/l2/large_c8a2b1729b3af181.jpg",
+      "isbn": "123456"
+    },
+    {
+      "id": 4,
+      "title": "Тонкое искусство пофигизма",
+      "authors": [
+        {
+          "name": "Марк",
+          "surname": "Мэнсон"
+        }
+      ],
+      "pages": 191,
+      "publisher": "Альпина Паблишер",
+      "publish_year": 2016,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/01/00/00/6e/23/large_551020aa86327c3e.jpg",
+      "isbn": "123456"
+    },
+    {
+      "id": 5,
+      "title": "Кроссовки. Культурная биография спортивной обуви",
+      "authors": [
+        {
+          "name": "Екатерина",
+          "surname": "Кулиничева"
+        }
+      ],
+      "pages": 376,
+      "publisher": "Новое литературное обозрение",
+      "publish_year": 2018,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/01/00/00/6w/q7/large_92da7136097eac00.jpg",
+      "isbn": "123456"
+    },
+    {
+      "id": 6,
+      "title": "Герой нашего времени",
+      "authors": [
+        {
+          "name": "Михаил",
+          "surname": "Лермонтов"
+        }
+      ],
+      "pages": 224,
+      "publisher": "Эксмо",
+      "publish_year": 2020,
+      "release_date": "2021-03-03",
+      "image": "https://www.respublica.ru/uploads/01/00/00/4c/cx/large_df55996d3d475700.jpg",
+      "isbn": "123456"
+    },
+    {
+      "id": 7,
+      "title": "Бизнес-кот. Блокнот с комиксами",
+      "authors": [
+        {
+          "name": "Том",
+          "surname": "Фондер"
+        }
+      ],
+      "pages": 160,
+      "publisher": "Эксмо",
+      "publish_year": 2018,
+      "release_date": "2021-03-03",
+      "image": "https://images.wbstatic.net/c516x688/new/5870000/5873480-1.jpg",
+      "isbn": "123456"
+    }
+  ]
+}
